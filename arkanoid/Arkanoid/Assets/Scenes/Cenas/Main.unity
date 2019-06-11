@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 82705931}
   - component: {fileID: 82705932}
   - component: {fileID: 82705933}
+  - component: {fileID: 82705934}
   m_Layer: 0
   m_Name: Chao
   m_TagString: Untagged
@@ -207,6 +208,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &82705934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82705930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3486f93a6244da39c33cc02c36f1aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &127704460
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,6 +345,7 @@ GameObject:
   - component: {fileID: 417209611}
   - component: {fileID: 417209609}
   - component: {fileID: 417209612}
+  - component: {fileID: 417209610}
   m_Layer: 0
   m_Name: Jogador
   m_TagString: Untagged
@@ -374,6 +388,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
+--- !u!114 &417209610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417209607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d65eb67f72946feb3a3b8b879401e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Velocidade: 10
+  HorizontalAxis: 0
+  rigibody: {fileID: 0}
 --- !u!212 &417209611
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -463,6 +492,7 @@ GameObject:
   - component: {fileID: 471906648}
   - component: {fileID: 471906649}
   - component: {fileID: 471906650}
+  - component: {fileID: 471906651}
   m_Layer: 0
   m_Name: Bola
   m_TagString: Untagged
@@ -583,6 +613,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Velocidade: {x: 20, y: 20}
+--- !u!114 &471906651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471906645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f60e534d4d54cf495793911498a265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,7 +967,7 @@ PrefabInstance:
     - target: {fileID: 1230486132922129618, guid: 621508ccef421495d938536e827f7cd1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.615
+      value: 3.93
       objectReference: {fileID: 0}
     - target: {fileID: 1230486132922129618, guid: 621508ccef421495d938536e827f7cd1,
         type: 3}
@@ -1039,7 +1081,7 @@ PrefabInstance:
     - target: {fileID: 1230486132922129618, guid: 621508ccef421495d938536e827f7cd1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.615
+      value: 3.89
       objectReference: {fileID: 0}
     - target: {fileID: 1230486132922129618, guid: 621508ccef421495d938536e827f7cd1,
         type: 3}
